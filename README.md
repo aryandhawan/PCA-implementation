@@ -1,5 +1,4 @@
 # PCA-implementation
-CA Implementation from Scratch in Python
 This project demonstrates a step-by-step implementation of Principal Component Analysis (PCA) from scratch using Python and NumPy. It covers the fundamental steps of PCA, including data centring, covariance matrix computation, eigen decomposition, principal component selection, and data projection onto lower dimensions. The result is visualised using Matplotlib.
 
 ### Overview
