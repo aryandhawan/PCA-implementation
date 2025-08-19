@@ -13,3 +13,16 @@ The first principal component captures the greatest variance in the data.
 Each subsequent component captures the next highest variance orthogonally.
 
 PCA helps in visualisation, noise reduction, and feature extraction.
+
+## How It Works
+Centre the data: Subtract the mean from each feature to centre the data around zero.
+
+Compute covariance matrix: Measure how features vary together.
+
+Eigen decomposition: Calculate eigenvalues and eigenvectors of the covariance matrix.
+
+Select principal components: Sort the eigenvalues and select the top components to retain.
+
+Project data: Transform original data onto the selected principal components.
+
+Visualise: Plot the reduced-dimensional data in 2D (or 3D).
